@@ -123,3 +123,11 @@ theorem mult_comm (a b : NAT) : mult a b = mult b a := by
   induction b with
   | zero => rw [mult_zero, zero_mult]
   | succ n ih => rw [mult, ih, mult_succ]
+
+
+/- power -/
+
+def pow (a b : NAT) : NAT :=
+   match b with
+   | zero => one
+   | succ n => mult (pow a n) a

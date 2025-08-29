@@ -1,3 +1,3 @@
 # Extra
 
-This directpory contaions variouès Lean exercices
+This directory contains various Lean exercices

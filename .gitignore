@@ -1,2 +1,5 @@
 /.lake
 /.github
+leanExercices/extra/mathematics_in_lean/
+leanExercices/extra/mechanicsofproof.lean
+
